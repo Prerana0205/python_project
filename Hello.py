@@ -1,9 +1,12 @@
-print('Hello')
-//print('bye bye')
-main ():
- hello()
- goodbye()
-hello():
-'hello'
-goodbye():
-     print('bye bye')
+def main():
+    hello()
+    goodbye()
+
+def hello():
+    print('Hello')
+
+def goodbye():
+    print('bye bye')
+
+# Call the main function to start the program
+main()
